@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <!-- field -->
+    <path android:fillColor="#05060A" android:pathData="M0,0 H320 V180 H0 Z" />
+    <!-- corner brackets -->
+    <path android:fillColor="#FF3B2F" android:pathData="M20,20 h26 v3 h-26 z M20,20 v26 h3 v-26 z" />
+    <path android:fillColor="#FF3B2F" android:pathData="M300,160 h-26 v-3 h26 z M300,160 v-26 h-3 v26 z" />
+    <!-- accent band + tick -->
+    <path android:fillColor="#FF3B2F" android:pathData="M40,84 h150 v10 h-150 z" />
+    <path android:fillColor="#FF3B2F" android:pathData="M40,64 h10 v10 h-10 z" />
+    <!-- hairline -->
+    <path android:fillColor="#E9ECEF" android:pathData="M40,108 h220 v3 h-220 z" />
+</vector>

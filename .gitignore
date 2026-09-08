@@ -1,0 +1,14 @@
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+.kotlin/
+
+# Release signing.
+# The PASSWORD file stays out of git; the keystore itself is committed (private,
+# solo-access repo) so app-update signing survives a lost local copy.
+keystore.properties
+*.keystore
+*.jks
+!keystore/constructtv-release.jks
